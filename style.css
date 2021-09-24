@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+#buttons button:nth-child(2){
+    background-color: yellow;
+}
+#buttons button:nth-child(1){
+    background-color: red;
+}
+#buttons button:nth-child(3){
+    background-color: green;
+}
+#buttons button:nth-child(5){
+    background-color: gray;
+}
